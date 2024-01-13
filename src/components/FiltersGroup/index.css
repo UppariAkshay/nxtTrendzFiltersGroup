@@ -1,0 +1,37 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.sideHeading-pTag {
+  font-weight: bold;
+  font-size: 20px;
+}
+.ratingStars-container {
+  display: flex;
+  align-items: center;
+}
+.filledStar {
+  color: #0967d2;
+  margin-right: 10px;
+}
+.unfilledStar {
+  margin-right: 10px;
+}
+.clearFiltersBtn-btnTag {
+  border: 1px solid #0967d2;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #0967d2;
+  font-weight: bold;
+}
